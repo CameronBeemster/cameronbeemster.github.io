@@ -14,7 +14,7 @@ html{
 body {
     width: 100%;
     height: 100%;
-    background: #465A64 no-repeat center fixed;
+    background: url('images/sitebg.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -53,7 +53,7 @@ img {
 
 .section-heading h1 {
     font-size: 3.5rem;
-    color: rgba(191, 220, 207, .5);
+    color: rgba(191, 220, 207, .4);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -105,7 +105,7 @@ header {
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #465A64;
+    background-color: #043152;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -134,7 +134,8 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-    background: linear-gradient(to top, #bfdccf, #7CC4BD);
+    /* background: linear-gradient(to top, #bfdccf, #094A5E); */
+    background: #bfdccf;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -163,7 +164,8 @@ li {
 }
 
 .bar {
-    background: linear-gradient(to right, #7CC4BD, #bfdccf);
+    /* background: linear-gradient(to right, #094A5E, #bfdccf); */
+    background: #bfdccf;
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -205,7 +207,7 @@ li {
 .landing-text h1 {
     font-size: 20rem;
     font-family: 'Satisfy', cursive;
-    background: linear-gradient(to top, #7CC4BD, #bfdccf);
+    background: #bfdccf;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 5rem;
@@ -392,13 +394,10 @@ li {
 /*---*/
 /*Start timeline*/
 
-/*End timeline*/
-/*---*/
-/*Start contact*/
 .timeline ul {
     border-left: 4px solid #F0675D;
     border-radius: .8rem;
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba(0,0,0,.2);
     margin: 0 auto;
     position: relative;
     padding: 5rem;
@@ -420,12 +419,12 @@ li {
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .5;
+    opacity: .6;
     text-decoration: none;
 }
 
 .timeline .date {
-    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255,255,255,.4);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -460,7 +459,7 @@ li {
     left: -7.97rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #7CC4BD; /* bfdccf */
+    background-color: rgb(10, 89, 95); /* bfdccf */
 }
 
 .date p {
@@ -492,7 +491,7 @@ li {
 }
 
 .up i {
-    color: #465A64;
+    color: #043152;
     font-size: 2rem;
     margin: auto;
 }
@@ -500,8 +499,7 @@ li {
 .copyright p {
     font-size: 1.4rem;
 }
-/*End footer*/
-/*---*/
+/*End timeline*/
 /*Start contact*/
 
 .contact .social-media .icon-list {
@@ -554,13 +552,13 @@ li {
 /*Start animations*/
 @keyframes pulse {
     0%{
-        box-shadow: 0 0 0 0 rgba(224, 88, 88, .99);
+        box-shadow: 0 0 0 0 rgba(240, 103, 93, .99);
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(224, 88, 88, 0);
+        box-shadow: 0 0 0 2rem rgba(240,103,93, 0);
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(224, 88, 88, 0);
+        box-shadow: 0 0 0 0 rgba(240,103,93, 0);
     }
 }
 /*End animations*/
