@@ -14,7 +14,7 @@ html{
 body {
     width: 100%;
     height: 100%;
-    background: url('images/sitebg.jpg') no-repeat center fixed;
+    background: #465A64 no-repeat center fixed;
     background-size: cover;
 }
 
@@ -53,7 +53,7 @@ img {
 
 .section-heading h1 {
     font-size: 3.5rem;
-    color: rgba(191, 220, 207, .4);
+    color: rgba(191, 220, 207, .5);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -105,7 +105,7 @@ header {
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #16162d;
+    background-color: #465A64;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -134,7 +134,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-    background: linear-gradient(to top, #bfdccf, #5f968e);
+    background: linear-gradient(to top, #bfdccf, #7CC4BD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -163,7 +163,7 @@ li {
 }
 
 .bar {
-    background: linear-gradient(to right, #5f968e, #bfdccf);
+    background: linear-gradient(to right, #7CC4BD, #bfdccf);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -205,7 +205,7 @@ li {
 .landing-text h1 {
     font-size: 20rem;
     font-family: 'Satisfy', cursive;
-    background: linear-gradient(to top, #5f968e, #bfdccf);
+    background: linear-gradient(to top, #7CC4BD, #bfdccf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 5rem;
@@ -236,7 +236,7 @@ li {
 
 .about-heading h1{
     font-size: 10rem;
-    opacity: .3;
+    opacity: .5;
     color: #bfdccf;
 }
 
@@ -279,15 +279,15 @@ li {
 }
 
 .fab.fa-linkedin:hover {
-    color: #e05858;
+    color: #F0675D;
 }
 
 .fas.fa-at:hover {
-    color: #e05858;
+    color: #F0675D;
 }
 
 .fab.fa-github-square:hover {
-    color: #e05858;
+    color: #F0675D;
 }
 /*End about*/
 /*---*/
@@ -326,7 +326,7 @@ li {
     width: 10rem;
     height: 10rem;
     border: 3px solid #bfdccf;
-    background-color: #e05858;
+    background-color: #F0675D;
     margin-bottom: 2rem;
     margin-top: 5rem;
     display: flex;
@@ -368,7 +368,7 @@ li {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: .4;
+    opacity: .5;
 }
 
 .portfolio-description p {
@@ -380,7 +380,7 @@ li {
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #e05858;
+    color: #F0675D;
     transition: color 650ms;
 }
 
@@ -396,7 +396,7 @@ li {
 /*---*/
 /*Start contact*/
 .timeline ul {
-    border-left: 4px solid #e05858;
+    border-left: 4px solid #F0675D;
     border-radius: .8rem;
     background-color: rgba(0,0,0,.05);
     margin: 0 auto;
@@ -412,7 +412,7 @@ li {
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .4;
+    opacity: .6;
 }
 
 .timeline h1 a {
@@ -420,7 +420,7 @@ li {
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .4;
+    opacity: .5;
     text-decoration: none;
 }
 
@@ -455,12 +455,12 @@ li {
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #e05858;
+    box-shadow: 0 0 0 4px #F0675D;
     border-radius: 100%;
     left: -7.97rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #5f968e; /* bfdccf */
+    background-color: #7CC4BD; /* bfdccf */
 }
 
 .date p {
@@ -472,9 +472,10 @@ li {
 .copyright {
     width: 100%;
     text-align: center;
-    background-color: #16162d;
+    /* background-color: #465A64; */
     padding: 2rem 0;
     position: relative;
+    
 }
 
 .up {
@@ -491,7 +492,7 @@ li {
 }
 
 .up i {
-    color: #16162d;
+    color: #465A64;
     font-size: 2rem;
     margin: auto;
 }
@@ -508,7 +509,7 @@ li {
 }
 
 .fas.fa-phone-square:hover {
-    color: #e05858;
+    color: #F0675D;
 }
 
 /*.contact {*/
